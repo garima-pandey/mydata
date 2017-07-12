@@ -1,0 +1,109 @@
+body{
+    margin: 0px;
+    background-color: #fff;
+    font-family: "brandon-grotesque", Helvetica, Arial ,sans-serif;
+    width: 100%;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.clearfix{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.container{
+    padding: 0px 40px;
+}
+
+/*
+header
+*/
+
+#header{
+    background-color: #fff;
+    padding: 10px 0px;
+}
+
+#header .logo_name{
+    margin-right: 20px;
+}
+
+#header .logo_name a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+#header .logo_name a:hover{
+    color: green;
+}
+
+#header .mid_header{
+   padding-top: 15px;
+}
+
+#header .mid_header{
+    margin-right: 453px;
+}
+
+#header .mid_header h3{
+    color: #DCDCDC;
+}
+
+#header .nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+   
+}
+
+#header .nav ul li{
+   float: left;
+    margin: 0px 10px;
+    font-size: 14px;
+}
+
+#header .nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+#header .nav ul li a:hover{
+    color: green;
+}
+
+#header .nav{
+    margin-top: -35px;
+}
+
+/*
+Content
+*/
+
+#content .circle{
+    height:700px;
+    width: 700px;
+    border: 2px solid red;
+    position: absolute;
+    top: 12%;
+    left: 28%;
+    opacity: 0.8;
+    border-radius: 350px;
+    background-repeat: no-repeat;
+    background-image: url("../images/image_1.jpg"),
+        url("../images/image_2.jpg"),
+        url("../images/image_3.jpg"),
+        url("../images/image_4.jpg"),
+        url("../images/image_5");
+    background-size: 50% 50%;
+    background-position: bottom right, top left, top right, bottom right;
+}

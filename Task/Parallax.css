@@ -1,0 +1,44 @@
+body{
+    margin:0px;
+    background-attachment: fixed;
+    background-image: url("images/f.jpg");
+    background-size: 100% 100%;
+    
+}
+
+h1{
+    font-family: cursive;
+    text-decoration: underline;
+    text-transform: capitalize;
+    color: aqua;
+    text-align: center;
+    
+}
+
+div{    
+    height: 600px;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin-bottom: 100px;
+}
+
+
+#div_1{
+    background-image: url("images/a.jpg");
+}
+
+#div_2{
+    background-image: url("images/b.jpg");
+}
+
+#div_3{
+    background-image: url("images/c.jpg");
+}
+
+#div_4{
+    background-image: url("images/d.jpg");
+}
+
+#div_5{
+    background-image: url("images/e.jpg");
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Registration Form</title>
+      </head>
+    <body>
+        <form action="../01-HTML/login.html" method="post">
+            <table width="400" align="center" border="2" cellspacing="5">
+                <tr align="center">
+                    <td colspan="2"><b>Registration Form</b></td>
+                </tr>                
+                <tr>
+                    <td align="right"><label for="user_name"><b>User Name</b></label></td>
+                    <td><input type="text" id="user_name" name="name"></td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="pass"><b>Password</b></label></td>
+                    <td><input type="password" id="pass" name="password"></td>
+                </tr>
+                <tr>
+                    <td align="right"><label><b>Gender</b></label></td>
+                    <td><input type="radio" name="gender" value="M">Male
+                    <input type="radio" name="gender" value="F">Female</td>
+                </tr>
+                <tr>
+                    <td align="right"><label><b>Language</b></label></td>
+                    <td><input type="checkbox" name="checkbox1">Hindi
+                    <input type="checkbox" name="checkbox2">English</td>
+                </tr>
+                <tr>
+                    <td align="right"><label><b>Select Month</b></label></td>
+                   <td><select name="month">
+                        <option>Select Month</option>
+                        <option value="Jan">January</option>
+                        <option value="Feb">February</option>
+                        <option value="Mar">March</option>
+                        <option value="Apr">April</option>
+                        <option value="Jun">June</option>
+                        <option value="Jul">July</option>
+                        <option value="Aug">August</option>
+                        <option value="Sep">September</option>
+                        <option value="Oct">October</option>
+                        <option value="Nov">November</option>
+                        <option value="Dec">December</option>
+                       </select>
+                               </td>
+                               </tr>
+                <tr>
+                    <td align="right"><label><b>Select Country</b></label></td>
+                    <td><select name="country">
+                        <optgroup label="Asia">
+                    <option value="Ind">India</option>
+                    <option value="Chi">China</option>
+                    <option value="Pak">Pakistan</option>
+                    <option value="SL">Sri Lanka</option>
+                        </optgroup>
+                        <optgroup label="Europe">
+                    <option value="UK">United Kingdom</option>
+                    <option value="Fr">France</option>
+                    <option value="It">Italy</option>
+                        </optgroup>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,279 @@
+body{
+    margin:0px;
+}
+
+#container {
+    height: 660px;
+    background-size: 100% 100%;
+    background-image: url("../images/Sunrise_from_space.jpg");
+    position: relative;
+    z-index: -1;
+    overflow: hidden;
+    animation: space 100s infinite alternate;
+}
+
+@keyframes space{
+    0%{
+        background-size: 100% 100%;
+        
+    }
+   /* 50%{
+        z-index: 10;
+        background-size: 100% 100%;
+        background-image: url("../images/image_13.jpg");
+        
+    }*/
+    100%{
+        background-size: 200% 200%;
+    }
+}
+
+/*#img_1 {
+    position: absolute;
+    height: 120px;
+    width: 150px;
+    top: 9%;
+    left: 9%;
+    background-image: url("../images/image_16.png");
+    background-size: 100% 100%;
+    animation: astronaut_1 20s alternate linear infinite;
+    animation-fill-mode: forwards;
+}*/
+
+/*@keyframes astronaut_1 {
+    0% {
+        transform: translate(10px,40px);
+    }
+    99% {
+        transform: translate(400px,200px);
+    }
+    100% {
+        transform: translate(200px,200px);
+    }
+}*/
+
+#img_1 {
+    position: absolute;
+    height: 350px;
+    width: 250px;
+    top: 60%;
+    left: 10%;
+    background-image: url("../images/image_6.png");
+    background-size: 100% 100%;
+    animation: satellite_1 20s alternate linear infinite;
+    z-index: 1;
+    /*animation-fill-mode: forwards;*/
+}
+
+@keyframes satellite_1 {
+    0% {
+        transform: rotateX(40deg) scale(1,1);
+    }
+    
+   /* 99% {
+        transform: translate(400px,200px);
+    }*/
+    100% {
+        transform: rotateX(80deg) scale(1.5,1.5);
+    }
+}
+
+#img_2 {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 9%;
+    left: 12%;
+    z-index: 2;
+    background-image: url("../images/image_4.png");
+    background-size: 100% 100%;
+    animation: satellite_2 20s alternate linear infinite;
+    /*animation-fill-mode: forwards;*/
+}
+
+@keyframes satellite_2 {
+    0% {
+        transform: rotateX(40deg) scale(1,1);
+    }
+   /* 99% {
+        transform: translate(400px,200px);
+    }*/
+    100% {
+        transform: rotateX(80deg) scale(1.5,1.5);
+    }
+}
+
+#img_3 {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    top: 15%;
+    right: 10%;
+    z-index: 3;
+    background-image: url("../images/image_7.png");
+    background-size: 100% 100%;
+    animation: satellite_3 20s alternate linear infinite;
+    /*animation-fill-mode: forwards;*/
+}
+
+@keyframes satellite_3 {
+    0% {
+        transform: rotateX(40deg) scale(1,1);
+    }
+   /* 99% {
+        transform: translate(400px,200px);
+    }*/
+    100% {
+        transform: rotateX(80deg) scale(1.5,1.5);
+    }}
+
+#img_4 {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    top: 40%;
+    right: 10%;
+    z-index: 4;
+    background-image: url("../images/image_5.png");
+    background-size: 100% 100%;
+    animation: satellite_4 20s alternate linear infinite;
+    /*animation-fill-mode: forwards;*/
+}
+
+@keyframes satellite_4 {
+    0% {
+        transform: rotateX(40deg) scale(1,1);
+    }
+   /* 99% {
+        transform: translate(400px,200px);
+    }*/
+    100% {
+        transform: rotateX(80deg) scale(1.5,1.5);
+}
+
+    }
+
+
+/*body {
+    margin: 0px;
+    overflow: hidden;
+}*/
+/*
+#container {
+    height: 640px;
+    background-size: 100% 100%;
+    background-image: url("../06-Transformations/galaxy.jpg");
+    position: relative;
+    z-index: -1;
+    overflow: hidden;
+    animation: galaxy 150s infinite;
+}
+*/
+
+/*
+#sun {
+    background-image: url("../06-Transformations/sun.jpg");
+    background-size: 100% 100%;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    height: 250px;
+    width: 250px;
+}
+*/
+
+/*
+#earth {
+    height: 170px;
+    width: 170px;
+    background-image: url("../../03-CSS_3/07-Animations/earth-spinning-rotating-animation-24.gif");
+    background-size: 100% 100%;
+    animation: earth infinite 20s linear;
+    position: relative;
+}
+*/
+
+/*@keyframes galaxy {
+    0% {
+        background-size: 100% 100%;
+    }
+    100% {
+        background-size: 200% 200%;
+    }
+}*/
+
+/*
+@keyframes earth {
+    0% {
+        transform: translate(100px,270px);
+    }
+    50% {
+        transform: translate(1000px,270px) scale(0.5,0.5);
+    }
+    100% {
+        z-index: -1;
+        transform: translate(100px,270px) scale(1,1);
+    }
+}
+*/
+
+
+/*
+#img_1 {
+    position: absolute;
+    height: 400px;
+    width: 200px;
+    top: 20%;
+    background-image: url("http://orig08.deviantart.net/a5ae/f/2016/075/0/9/iron_man___transparent_by_asthonx1-d9vbl3v.png");
+    background-image: url("https://vignette1.wikia.nocookie.net/disney/images/2/2a/PMwIexx.png/revision/latest/scale-to-width-down/250?cb=20130520201910");
+    background-size: 100% 100%;
+    animation: iron_man 5s linear;
+    animation-fill-mode: forwards;
+}
+*/
+/*
+@keyframes iron_man {
+    0% {
+        transform: translate(400px,-200%);
+    }
+    99% {
+        transform: translate(400px,200px);
+    }
+    100% {
+        transform: translate(400px,-200%);
+    }
+}
+*/
+
+
+/*
+#flying_ironman {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    background-image: url("LziFSQN.png");
+    background-size: 100% 100%;
+    transform: scale(0.01,0.01) translate(550px,250px);
+    left: 38%;
+    top: 30%;
+    animation: flying_ironman 30s linear;
+}
+*/
+
+/*@keyframes flying_ironman {
+    0% {
+        transform: scale(0.01,0.01);
+        z-index: -1;
+    }
+    50% {
+        left: 10%;
+        top: 35%;
+        transform: scale(1.5,1.5) rotateY(180deg);
+    }
+    100% {
+        left: 90%;
+        top: 100%;
+        transform: scale(3,3) rotateY(180deg);
+    }
+}*/

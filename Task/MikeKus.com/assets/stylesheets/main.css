@@ -1,0 +1,194 @@
+body{
+    margin: 0px;
+    width: 1352px;
+    font-family: "Mercury SSm A","Mercury SSm B",sans-serif;
+    overflow-x: hidden;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/*
+h1{
+    text-align: center;
+    
+}
+*/
+
+.container{
+padding: 0px 45px;
+}
+
+/*
+Header
+*/
+
+#header{
+    padding: 0px 20px;
+    letter-spacing: 5px;
+   /* position: fixed;
+    top:0%;*/
+    
+}
+
+#header .logo_name{
+    font-size: 24px;
+    padding-top: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 6px -3px 5px rgba(165, 145, 177, 0.87);
+}
+
+#header .logo_name a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+#header .logo_name a:hover{
+    color: dodgerblue;
+}
+
+#header ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+
+#header .nav_icon ul li{
+    font-size: 14px;
+    display: inline-block;
+    padding: 20px 0px;
+    margin: 0px 10px;
+    }
+
+
+
+
+#header .nav_icon ul li a{
+    text-decoration: none;
+    color:#000;
+   /* font-weight: bold;*/
+}
+
+#header .hover_nav:hover{
+border-bottom: 4px solid #000;
+
+}
+
+
+#content{
+display: flex;
+justify-content:space-around;
+flex-wrap: wrap;    
+    background-color: #EFEFEF;
+}
+
+#content div{
+    width: 25%;
+    overflow: hidden;
+    height: 200px;
+}
+
+#content img{
+    width: 100%;
+    height: inherit;
+}
+
+/*
+Footer
+*/
+
+#footer{
+    text-align: center;
+}
+
+#footer ul{
+    margin: 0px;
+    position: relative;
+    padding: 0px;
+    list-style: none;
+}
+
+#footer ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+#footer .mid_footer ul li{
+    display: inline-block;
+}
+
+#footer .bottom_footer ul li{
+    display: inline-block;
+}
+
+#footer .logo_name{
+    text-transform: uppercase;
+    padding-top: 80px;
+    font-size: 24px;
+    font-weight: bold;
+   /* border-bottom: 1px solid #ccc;*/
+    margin-bottom: 90px;
+    letter-spacing: 5px;
+
+}
+
+#footer .logo_name a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+#footer a:hover{
+    color: dodgerblue;
+}
+
+#footer .mid_footer ul li{
+    letter-spacing: 5px;
+    padding-right: 20px;
+}
+
+#footer .mid_footer{
+    margin-bottom: 40px;
+}
+
+#footer .bottom_footer ul li{
+    padding-right: 10px;
+    margin-bottom: 40px;
+    padding-top: 30px;
+}
+
+
+#footer .mid_footer ul:before{
+    content: "";
+    border-top: 1px solid #ccc;
+    position: absolute;
+    margin: 0 auto;
+    top: -48px;
+    width: 28%;
+}
+
+#footer .mid_footer ul:after{
+    content: "";
+    border-top: 1px solid #ccc;
+    position: absolute;
+    margin: 0 auto;
+    bottom: -48px;
+    width: 28%;
+    left: 35%;
+}
